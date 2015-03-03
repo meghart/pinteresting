@@ -6,5 +6,6 @@ class Pin < ActiveRecord::Base
                   :s3_credentials => "#{Rails.root}/config/secrets.yml",
                   :path => "/:style/:id/:filename"
 
-	validates_attachment_content_type :image, :content_type => ["image/jpg", "image/jpeg", "image/png"]
+	validates :image, presence: true
+  	validates :description, presence: true
 end
