@@ -17,3 +17,4 @@
 .DS_Store
 /config/secrets.yml
 /config/s3.yml
+/public/system/*
