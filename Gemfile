@@ -46,3 +46,5 @@ gem "aws-s3"
 
 
 gem 'masonry-rails'
+gem 'will_paginate', '~> 3.0.5'
+gem 'will_paginate-bootstrap'
