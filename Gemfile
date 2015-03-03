@@ -39,5 +39,7 @@ gem 'bootstrap-sass'
 
 gem 'devise'
 
+# Image uploading
 gem "paperclip", "~> 4.2"
-
+gem "aws-sdk"
+gem "aws-s3"
