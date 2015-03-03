@@ -41,5 +41,8 @@ gem 'devise'
 
 # Image uploading
 gem "paperclip", "~> 4.2"
-gem "aws-sdk"
-gem "aws-s3"
+gem 'aws-sdk', '~> 1.5.7'
+gem "aws-s3" 
+
+
+gem 'masonry-rails'
