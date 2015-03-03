@@ -15,4 +15,5 @@
 /log/*.log
 /tmp
 .DS_Store
-/config/*.yml
+/config/secrets.yml
+/config/s3.yml
