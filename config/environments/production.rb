@@ -83,7 +83,6 @@ Rails.application.configure do
     config.paperclip_defaults = {
     :storage => :dropbox,
     :dropbox_credentials => Rails.root.join("config/dropbox.yml")
-    }
   }
 
 end
