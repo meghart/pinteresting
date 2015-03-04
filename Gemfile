@@ -33,8 +33,7 @@ end
 gem 'spring',        group: :development
 
 # Bootstrap Styling
-gem 'sprockets-rails', :require => 'sprockets/railtie'
-gem 'bootstrap-sass', '~> 3.3.3'
+#gem 'bootstrap-sass', '~> 3.3.3'
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.3'
 
