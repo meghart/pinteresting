@@ -3,7 +3,7 @@ class Pin < ActiveRecord::Base
 
 	has_attached_file :image,
 				    :storage => :dropbox,
-				    :styles => { :medium => "300x300" , :thumb => "100x100>"},  
+				    :styles => { :medium => "300x300", :thumb => "100x100>"},  
 				    :dropbox_credentials => Rails.root.join("config/dropbox.yml"),
 				    :path => ":style/:id_:filename"
 

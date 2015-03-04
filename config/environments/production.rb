@@ -82,7 +82,7 @@ Rails.application.configure do
   # Paperclip storage for Heroku
     config.paperclip_defaults = {
     :storage => :dropbox,
-    :dropbox_credentials => Rails.root.join("config/dropbox.yml"),
+    :dropbox_credentials => Rails.root.join("config/dropbox.yml")
     }
   }
 
